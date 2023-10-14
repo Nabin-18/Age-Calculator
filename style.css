@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(145, 145, 214);
+}
+.title {
+  height: 100px;
+  width: 100%;
+  margin: 28px 100px;
+}
+.title h1 {
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.title h1 span {
+  color: rgb(233, 233, 91);
+}
+.box {
+  height: 28vh;
+  width: 40vw;
+  background-color: rgb(202, 202, 219);
+  border-radius: 4px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.date {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  gap: 8px;
+}
+.date input {
+  margin: 8px;
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border: transparent;
+  border-radius: 4px;
+  padding: 0 20px;
+}
+button {
+  padding: 8px;
+  margin: 8px;
+  outline: none;
+  border: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgb(240, 240, 53);
+}
+.text p {
+  margin: 4px;
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 480px) 
+{
+   
+    .box{
+    width: 100%;
+      height: fit-content;
+  }
+}
